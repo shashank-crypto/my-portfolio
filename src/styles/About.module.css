@@ -1,0 +1,30 @@
+.about {
+    /* background-color: red; */
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro {
+    font-family: var(--font-rubik);
+    font-size: 2rem;
+}
+
+.myname {
+    color: #062C30;
+    /* background-color: red; */
+    box-shadow: inset 0 -15px #E2D784;
+}
+
+.aboutme {
+}
+
+.aboutme > span {
+    font-family: var(--font-rubik);
+    font-size: 1rem;
+    color: #062C30;
+}
