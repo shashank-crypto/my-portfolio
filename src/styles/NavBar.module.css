@@ -1,3 +1,16 @@
+.navbar {
+   display: flex;
+   justify-content: space-around;
+}
+
+.logo {
+    font-family: var(--font-comforta);
+    font-size: 2.5rem;
+    color: #062C30;
+    /* background-color: red; */
+    box-shadow: inset 0 -15px yellow; /* #E2D784 */
+}
+
 .links > li {
     font-size: larger;
     font-family: var(--font-comforta);
@@ -5,10 +18,11 @@
 
 .links {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
+    max-width: 800px;
+    min-width: 500px;
     list-style: none;
     text-decoration: none;
 }

@@ -32,11 +32,7 @@ export default function Home() {
               }}
             />
             </span>
-          </h1>
-          <svg width="365px" height="372px" viewBox="0 0 365 372" version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <path d="M178.746 371C281.059 371 364 288.173 364 186S328.634 1 178.746 1C28.857 1 65.06 129 24.004 186c-76.087 105.633 52.429 185 154.742 185z" stroke="#EA607E" fill="none" fillRule="evenodd"></path>
-          </svg>
-          
+          </h1>          
         </section>
       </main>
     </>

@@ -9,7 +9,10 @@ export default function NavBar() {
     const { pathname } = router
     
     return (
-        <nav>
+        <nav className={styles.navbar}>
+            <h1 className={styles.logo}>
+                Sc.
+            </h1>
         <ul className={styles.links}>
             <li>
             <Link href="/">

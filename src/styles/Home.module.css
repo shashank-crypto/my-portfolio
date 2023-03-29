@@ -1,9 +1,9 @@
 .main {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  /* min-height: calc(100vh - 8rem); */
   padding: 0 0.5rem;
 }
 
@@ -12,8 +12,10 @@
 }
 
 .title {
+  font-family: var(--font);
   font-size: 50px;
   display: flex;
+  min-width: 450px;
 }
 
 .typewriter {
