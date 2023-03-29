@@ -1,0 +1,40 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-comforta);
+}
+
+.experiences {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 60%;
+}
+
+.experience {
+    border: 1px solid #000000;
+    min-height: 30vh;
+}
+
+.experience > h1 {
+    font-size: 1.5rem;
+    line-height: 60%;
+}
+
+.experience > h2 {
+    font-size: 1.25rem;
+    line-height: 60%;
+}
+
+.experience > h3 {
+    font-size: 1rem;
+    line-height: 60%;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+}

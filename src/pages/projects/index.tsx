@@ -1,9 +1,37 @@
 import React from 'react';
+import styles from '@/styles/Projects.module.css';
+
+import Experiences from '../api/experience.json'
+import LineWithPoints from './LineWithPoints';
+import Tag from '@/components/Tag';
 
 function Projects () {
+
     return (
-        <div>
-            Hey
+        <div className={styles.page}>
+            <LineWithPoints numPoints={Experiences.length} triangleIndex={2} />
+            <div className={styles.experiences}>
+                <h1>Experiences</h1>
+                <div>
+                    {Experiences.map((experience) => (
+                        <div key={experience.id} className={styles.experience}>
+                            <h1>{experience.company}</h1>
+                            <h2>{experience.designation}</h2>
+                            <h3>{experience.from} - {experience.to}</h3>
+                            <div className={styles.tags}>
+                                {(experience?.techStack) ? experience.techStack.map((tech, index) => 
+                                (<span key={index}>{tech}</span>)) : null}
+                            </div>
+                            <ul>{experience.description.map((point, index) => {
+                                return <li key={index}>{point}</li>
+                            })}</ul>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <div className={styles.projects}>
+                <h1>Projects</h1>
+            </div>
         </div>
     );
 }
