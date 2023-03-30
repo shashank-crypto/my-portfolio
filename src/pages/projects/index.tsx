@@ -3,7 +3,6 @@ import styles from '@/styles/Projects.module.css';
 
 import Experiences from '../api/experience.json'
 import LineWithPoints from './LineWithPoints';
-import Tag from '@/components/Tag';
 
 function Projects () {
 
@@ -22,7 +21,7 @@ function Projects () {
                                 {(experience?.techStack) ? experience.techStack.map((tech, index) => 
                                 (<span key={index}>{tech}</span>)) : null}
                             </div>
-                            <ul>{experience.description.map((point, index) => {
+                            <ul style={{textAlign: "left"}}>{experience.description.map((point, index) => {
                                 return <li key={index}>{point}</li>
                             })}</ul>
                         </div>

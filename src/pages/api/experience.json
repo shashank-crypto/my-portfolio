@@ -1,37 +1,42 @@
 [
     {
         "id": 1,
-        "company": "Company 1",
-        "from": "Jan 2018",
-        "to": "June 2018",
-        "techStack": ["Tech Stack 1","Tech Stack 2","Tech Stack 3"],
-        "designation": "Designation 1",
-        "description": ["Description 1"]
+        "company": "Itilite Technologies",
+        "from": "September 2022",
+        "to": "Present",
+        "techStack": ["Node.js","Express.js","mysql", "redis", "docker", "aws", "python", "django", "linux"],
+        "designation": "Software Engineer Intern",
+        "description": ["Worked in Mobile APP team as backend developer and then user management team as backend developer.", 
+        "Worked on development of several features for the company helping increase revenue by 13% while increasing clients' interaction. Collaborated with several teams and my own team members to build, deploy and dev-test new features taking complete ownership of the project.",
+        "Worked on internal system optimization and automation for the company saving 50% of the time taken for doing, debugging and error management done in the manual process. Also helping developers to focus on the development of the features instead of doing the manual process.",
+        "Migrated code base for mobile backend api to user management api in python django framework saving 100% of the development time for the new feature development of the user management in mobile api. Helping remove inconsistency for the user management and hence also removing the time taken to resolve the inconsistencies.",
+        "Worked on several technologies on different projects showing the adapatability and flexibility to work on different technologies and projects."
+        ]
     },
     {
-        "id": 1,
-        "company": "Company 1",
-        "from": "2018-01-01",
-        "to": "2018-01-01",
-        "techStack": ["Tech Stack 1","Tech Stack 2","Tech Stack 3"],
-        "designation": "Designation 1",
-        "description": ["Description 1"]
+        "id": 2,
+        "company": "Freelancer",
+        "from": "Jan 2022",
+        "to": "June 2022",
+        "techStack": ["Node.js","Express.js","mongodb", "aws", "socket.io"],
+        "designation": "Backend Developer",
+        "description": ["Worked on two different large api systems for two different clients.",
+        "Developed feartures to help handle large number of connections simultaneously and decrease the response time of the api by almost 20%.",
+        "Helped in optimizing the response time of the api by restructuring the request and response data and reducing the calls.",
+        "Removed interdependecies between the api endpoints to reduce the calls and save around 30% of the time taken for the process flows.",
+        "Helped solve bugs and errors in the api and also helped in the deployment of the api to the production environment.",
+        "Helped store, track and manage the data by storing and moving data to the more cost effective storage to save almost 30% on aws cost.",
+        "Helped handle and query large data on dynamoDB",
+        "Wrote shell and python scripts to automate the build and delpoyment and helped reduce the deployment time by 60% and skipping any manual errors possible.",
+        "Handled server deployment and maintenance for the api."
+        ]
     },
     {
-        "id": 1,
-        "company": "Company 1",
-        "from": "2018-01-01",
-        "to": "2018-01-01",
-        "techStack": ["Tech Stack 1","Tech Stack 2","Tech Stack 3"],
-        "designation": "Designation 1",
-        "description": ["Description 1"]
-    },
-    {
-        "id": 1,
-        "company": "Company 1",
-        "from": "2018-01-01",
-        "to": "2018-01-01",
-        "techStack": ["Tech Stack 1","Tech Stack 2","Tech Stack 3"],
+        "id": 3,
+        "company": "Pebble - Unlearners",
+        "from": "Oct 2021",
+        "to": "Dec 2021",
+        "techStack": ["Node.js","Express.js","mongodb", "aws", "gRPC", "TypeScript"],
         "designation": "Designation 1",
         "description": ["Description 1"]
     }

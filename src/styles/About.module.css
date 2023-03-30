@@ -1,8 +1,7 @@
-/* .about {
-    /* background-color: red; 
+.about {
     display: flex;
     flex-direction: column;
-} */
+}
 
 .top {
     display: flex;
@@ -33,6 +32,7 @@
     flex-direction: column;
     max-width: 700px;
     align-items: center;
+    text-align: justify;
     font-family: var(--font-rubik);
     font-size: 1.5rem;
     color: #062C30;
@@ -46,16 +46,22 @@
 .skillSet {
     font-family: var(--font-rubik);
     font-size: 1.5rem;
-    display: flex;
+    /* display: flex;
+    max-width: 800px;
+    align-self: center;
     flex-direction: column;
-    align-items: center;
-    margin: 2rem;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem; */
+    text-align: center;
+    align-self: center;
+    width: 60%;
+    min-width: 400px;
 }
 
 .skills {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .skill {
@@ -72,4 +78,19 @@
     flex-direction: column;
     align-items: center;
     margin: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutme, .top {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .top > img {
+        width: 350px;
+        height: 317.5;
+    }
 }

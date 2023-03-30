@@ -11,7 +11,7 @@ function About() {
                     <h1>Hey there,</h1>
                     <h1>I am <span className={styles.myname}>Shashank</span></h1>
                 </div>
-                <img src='aboutme2.svg'/>
+                <img src='aboutme2.svg' width="564.8103" height="449.94076"/>
 
             </div>
             <div className={styles.aboutme}>
