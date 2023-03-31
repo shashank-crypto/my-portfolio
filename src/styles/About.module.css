@@ -7,7 +7,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../public/about-bg2.svg');
 }
 
 .intro {

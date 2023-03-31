@@ -29,7 +29,7 @@ function Projects () {
                 </div>
             </div>
             <div className={styles.projects}>
-                <h1>Projects</h1>
+                <h1>Personal <span className={styles.highlight}>Projects</span></h1>
             </div>
         </div>
     );
