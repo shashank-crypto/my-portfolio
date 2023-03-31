@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
-  const identification = ['a developer', 'a designer', 'a writer', 'an idea builder', 'a problem solver', 'a maker', 'a doer', 'a creative technologist', 'a lifelong learner']
+  const identification = ['a developer', 'a designer', 'an idea builder', 'a problem solver', 'a programmer' , 'a curious technologist', 'a tech enthusiast', 'a lifelong learner']
 
   return (
     <>
@@ -23,7 +23,7 @@ export default function Home() {
           {/* I am a developer, designer, and writer, an idea builder and a problem solver, a maker and a doer. I am a creative technologist, a digital artist, and a digital storyteller. I am a digital nomad, a world traveler, and a lifelong learner. I am a husband, a father, and a friend. I am a human being. */}
           <h1 className={styles.title}>
             I am &nbsp;
-            <span className={styles.typewriter}>
+            <div className={styles.typewriter}>
             <Typewriter
               options={{
                 strings: identification,
@@ -31,7 +31,7 @@ export default function Home() {
                 loop: true,
               }}
             />
-            </span>
+            </div>
           </h1>          
         </section>
       </main>

@@ -8,9 +8,9 @@ function Projects () {
 
     return (
         <div className={styles.page}>
-            <LineWithPoints numPoints={Experiences.length} triangleIndex={2} />
+            {/* <LineWithPoints numPoints={Experiences.length} triangleIndex={2} /> */}
             <div className={styles.experiences}>
-                <h1>Experiences</h1>
+                <h1 style={{fontSize: "2rem"}}>Industry <span className={styles.highlight}>Experiences</span></h1>
                 <div>
                     {Experiences.map((experience) => (
                         <div key={experience.id} className={styles.experience}>
