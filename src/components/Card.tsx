@@ -1,6 +1,8 @@
 import React from 'react';
+import { PropsWithChildren } from "react";
 
-function Card({project}) {
+
+function Card({project} : PropsWithChildren<{project: any}>) {
 
     const {name, description, techStack, link, repo} = project;
 

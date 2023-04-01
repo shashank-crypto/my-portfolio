@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Tag({skill}) {
+function Tag({skill} : {skill: string}) {
 
-    const skillColorMap = {
+    const skillColorMap : {[key: string]: string} = {
         'React': '#0fcdd4',
         'Next.js': '#555c4f',
         'Node.js': '#4b9116',
@@ -17,7 +17,7 @@ function Tag({skill}) {
         'git': '#f74e2d',
         'postman': '#e87641',
         'redis': '#e85d41',
-    }
+    } ;
 
     const style = {
         backgroundColor: skillColorMap[skill] ? `${skillColorMap[skill]}7e` : '#0000007e',

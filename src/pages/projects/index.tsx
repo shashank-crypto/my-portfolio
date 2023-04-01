@@ -5,7 +5,6 @@ import experiences from '../api/experience.json'
 import projects from '../api/project.json'
 
 import LineWithPoints from './LineWithPoints';
-import Card from '@/components/Card';
 
 function Projects () {
 
@@ -35,7 +34,8 @@ function Projects () {
                 <h1>Personal <span className={styles.highlight}>Projects</span></h1>
                 <div>
                     {projects.map((project) => (
-                        <Card project={project} key={project.id} />
+                        // <Card project={project} key={project.id} />
+                        <div></div>
                     ))}
                 </div>
             </div>

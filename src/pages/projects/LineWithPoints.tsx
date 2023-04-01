@@ -37,20 +37,20 @@
 // export default LineWithPoints;
 import React, { useRef, useEffect } from 'react';
 
-const LineWithPoints = ({ numPoints, triangleIndex }) => {
+const LineWithPoints = ({ numPoints, triangleIndex } : {numPoints : any, triangleIndex : number}) => {
   const lineRef = useRef(null);
 
   useEffect(() => {
-    const line = lineRef.current;
-    const length = line.getTotalLength();
-    const interval = length / (numPoints - 1);
+    const line : any = lineRef.current;
+    const length : any = line.getTotalLength();
+    const interval : any = length / (numPoints - 1);
 
     for (let i = 0; i < numPoints; i++) {
       const point = line.getPointAtLength(i * interval);
       const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
       circle.setAttribute('cx', point.x);
       circle.setAttribute('cy', point.y);
-      circle.setAttribute('r', 0.5);
+      circle.setAttribute('r', '0.5');
       if (i === triangleIndex) {
         circle.setAttribute('fill', 'yellow');
         circle.setAttribute('stroke', 'none');
