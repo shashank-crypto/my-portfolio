@@ -4,6 +4,10 @@
     align-items: center;
     text-align: justify;
     font-family: var(--font-rubik);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url('../../public/contact.svg');
 }
 
 .contact > h1 {

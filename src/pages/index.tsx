@@ -4,6 +4,8 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Typewriter from 'typewriter-effect'
 
+import {BsArrowRight,BsDash,BsCloudDownload} from 'react-icons/bs'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -35,7 +37,9 @@ export default function Home() {
           </h1>
                  {/* ! add arrow button and know more link linking to about page  */}
           {/* <button className={styles.resume}> */}
-            <a href="/about" className={styles.resume}>RESUME</a>
+          <a href="/about" className={styles.more}><BsDash/>More about me<BsArrowRight className={styles.move}/></a>
+            {/* {/* <a href="/about" className={styles.resume}>RESUME</a> */}
+            <a href="https://drive.google.com/file/d/16fm7VKzE4XsoOghdVg8QcoA0kLYtjWhp/view?usp=sharing" target="_blank" className={styles.resume}><BsCloudDownload/>&nbsp; RESUME</a> 
           {/* </button> */}
         </section>
       </main>

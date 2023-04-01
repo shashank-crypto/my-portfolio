@@ -6,11 +6,11 @@
         "to": "Present",
         "techStack": ["Node.js","Express.js","mysql", "redis", "docker", "aws", "python", "django", "linux"],
         "designation": "Software Engineer Intern",
-        "description": ["Worked in Mobile APP team as backend developer and then user management team as backend developer.", 
-        "Worked on development of several features for the company helping increase revenue by 13% while increasing clients' interaction. Collaborated with several teams and my own team members to build, deploy and dev-test new features taking complete ownership of the project.",
-        "Worked on internal system optimization and automation for the company saving 50% of the time taken for doing, debugging and error management done in the manual process. Also helping developers to focus on the development of the features instead of doing the manual process.",
-        "Migrated code base for mobile backend api to user management api in python django framework saving 100% of the development time for the new feature development of the user management in mobile api. Helping remove inconsistency for the user management and hence also removing the time taken to resolve the inconsistencies.",
-        "Worked on several technologies on different projects showing the adapatability and flexibility to work on different technologies and projects."
+        "description": ["Worked in <span> Mobile App </span> team and then <span> user management </span> team as backend developer.", 
+        "Worked on development of several features for the company helping <span>  increase revenue by 13% </span>  while increasing clients' interaction. Collaborated with several teams and my own team members to <span>  build, deploy </span> and <span> dev-test </span>  new features taking complete ownership of the project.",
+        "Worked on internal<span>  system optimization </span> and <span> automation </span> for the company saving 50% of the time taken for completing, debugging and error management done in the manual process. Also helping developers to focus on the development of the features instead of doing the manual process.",
+        "Migrated code base for mobile backend api to user management api in <span> python django framework </span> saving 100% of the development time for the new feature development of the user management in mobile api. Helping <span> remove inconsistency </span> for the user management and hence also removing the time taken to resolve the inconsistencies.",
+        "Worked on several technologies on different projects showing the <span> adapatability </span> and <span> flexibility </span> to work on different technologies and projects."
         ]
     },
     {
@@ -20,15 +20,15 @@
         "to": "June 2022",
         "techStack": ["Node.js","Express.js","mongodb", "aws", "socket.io"],
         "designation": "Backend Developer",
-        "description": ["Worked on two different large api systems for two different clients.",
-        "Developed feartures to help handle large number of connections simultaneously and decrease the response time of the api by almost 20%.",
-        "Helped in optimizing the response time of the api by restructuring the request and response data and reducing the calls.",
-        "Removed interdependecies between the api endpoints to reduce the calls and save around 30% of the time taken for the process flows.",
-        "Helped solve bugs and errors in the api and also helped in the deployment of the api to the production environment.",
-        "Helped store, track and manage the data by storing and moving data to the more cost effective storage to save almost 30% on aws cost.",
-        "Helped handle and query large data on dynamoDB",
-        "Wrote shell and python scripts to automate the build and delpoyment and helped reduce the deployment time by 60% and skipping any manual errors possible.",
-        "Handled server deployment and maintenance for the api."
+        "description": ["Worked on two different <span> large api systems </span> for two different clients.",
+        "Developed feartures to help <span> handle large number of connections </span> simultaneously and <span> decrease the response time </span> of the api by almost 20%.",
+        "Helped in <span> optimizing the response </span> time of the api by <span> restructuring </span> the request and response data and <span> reducing the calls </span> .",
+        "<span> Removed interdependecies </span> between the api endpoints to reduce the calls and <span> save around 30% </span> of the time taken for the process flows.",
+        "Helped solve bugs and errors in the api and also helped in the <span> deployment of the api </span> to the production environment.",
+        "Helped store, track and manage the data by storing and <span> moving data to the more cost effective storage </span> to save almost 30% on aws cost.",
+        "Helped <span> handle and query large data </span> on dynamoDB",
+        "Wrote shell and python scripts to <span> automate the build and delpoyment </span> and helped reduce the deployment time by 60% and skipping any manual errors possible.",
+        "Handled <span> server deployment and maintenance </span> for the api."
         ]
     },
     {
@@ -39,9 +39,9 @@
         "techStack": ["Node.js","Express.js","mongodb", "aws", "gRPC", "TypeScript"],
         "designation": "Backend Engineer Intern",
         "description": ["Worked on the backend of the company's product Pebble.",
-        "Was working on improving the connectivity of the medical device with the users and the doctors.",
-        "Helped in handling the data and routing them to the correct users and doctors.",
-        "Was working on helping reduce the latency of the data transfer between the device and the server with the gRPC.",
-        "Refactoring the existing code to apply factory design pattern and dependency injection to make the code more readable and maintainable."]
+        "Was working on <span> improving the connectivity </span> of the medical device with the users and the doctors.",
+        "Helped in <span> handling and routing data </span> to the correct patients and doctors.",
+        "Was working on helping <span> reduce the latency of the data transfer </span>  between the device and the server with the <span> gRPC </span>.",
+        "Refactoring the existing code to apply <span> factory design pattern </span> to make the code more readable and maintainable."]
     }
 ]

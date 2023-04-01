@@ -4,6 +4,8 @@ import styles from '@/styles/Projects.module.css';
 import experiences from '../api/experience.json'
 import projects from '../api/project.json'
 
+import Card from '@/components/Card';
+
 import LineWithPoints from './LineWithPoints';
 
 function Projects () {
@@ -23,8 +25,8 @@ function Projects () {
                                 {(experience?.techStack) ? experience.techStack.map((tech, index) => 
                                 (<span key={index}>{tech}</span>)) : null}
                             </div>
-                            <ul style={{textAlign: "left"}}>{experience.description.map((point, index) => {
-                                return <li key={index}>{point}</li>
+                            <ul style={{textAlign: "left", fontSize: "1.1rem"}}>{experience.description.map((point, index) => {
+                                return <li key={index} dangerouslySetInnerHTML={ {__html: point} }/>
                             })}</ul>
                         </div>
                     ))}
@@ -32,10 +34,9 @@ function Projects () {
             </div>
             <div className={styles.projects}>
                 <h1>Personal <span className={styles.highlight}>Projects</span></h1>
-                <div>
+                <div className={styles.project}>
                     {projects.map((project) => (
-                        // <Card project={project} key={project.id} />
-                        <div></div>
+                        <Card project={project} key={project.id} />
                     ))}
                 </div>
             </div>

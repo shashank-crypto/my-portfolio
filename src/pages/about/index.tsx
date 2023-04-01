@@ -38,6 +38,10 @@ function About() {
                     <path d="M 178.746 371 C 281.059 371 364 288.173 364 186 S 328.634 1 178.746 1 C 74 -92 -117 35 24.004 186 c -76.087 105.633 52.429 185 154.742 185 z" stroke="none" fill="url(#img1)" fillRule="evenodd"></path>
             </svg>
           </div>
+            <blockquote className={styles.otroblockquote}>
+            Yesterday is history, tomorrow is a mystery, but today is a gift, that is why we call it the present. <br/>
+            <span>Master Oogway</span>
+        </blockquote>
           <div className={styles.skillSet}>
             <h1>My Skill Set</h1>
             <div className={styles.skills}>

@@ -4,6 +4,8 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styles from '@/styles/NavBar.module.css'
 
+import {GiHamburgerMenu} from 'react-icons/gi'
+
 export default function NavBar() {
     const router = useRouter()
     const { pathname } = router
@@ -42,7 +44,7 @@ export default function NavBar() {
                 Sc.
             </h1>
             <div className={styles.hamburger}>
-                <img src="burger.png" onClick={showLinks}/>
+                <GiHamburgerMenu className={styles.menu} onClick={showLinks}/>
                 {links}
             </div>
         </nav>

@@ -1,9 +1,16 @@
 .social {
     display: flex;
     list-style: none;
+    line-height: 0;
+    padding: 0;
 }
 
-.social > li > a > img {
+/* .social > li > a > img {
     width : 2rem;
     height: 2rem;
+} */
+
+.icons {
+    transform: scale(2,2) !important;
+    margin: 0 1rem;
 }
