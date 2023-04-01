@@ -32,7 +32,11 @@ export default function Home() {
               }}
             />
             </div>
-          </h1>          
+          </h1>
+                 {/* ! add arrow button and know more link linking to about page  */}
+          {/* <button className={styles.resume}> */}
+            <a href="/about" className={styles.resume}>RESUME</a>
+          {/* </button> */}
         </section>
       </main>
     </>

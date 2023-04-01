@@ -1,0 +1,9 @@
+.social {
+    display: flex;
+    list-style: none;
+}
+
+.social > li > a > img {
+    width : 2rem;
+    height: 2rem;
+}

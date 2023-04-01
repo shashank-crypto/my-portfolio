@@ -1,8 +1,11 @@
 import React from 'react';
 import styles from '@/styles/Projects.module.css';
 
-import Experiences from '../api/experience.json'
+import experiences from '../api/experience.json'
+import projects from '../api/project.json'
+
 import LineWithPoints from './LineWithPoints';
+import Card from '@/components/Card';
 
 function Projects () {
 
@@ -12,7 +15,7 @@ function Projects () {
             <div className={styles.experiences}>
                 <h1 style={{fontSize: "2rem"}}>Industry <span className={styles.highlight}>Experiences</span></h1>
                 <div>
-                    {Experiences.map((experience) => (
+                    {experiences.map((experience) => (
                         <div key={experience.id} className={styles.experience}>
                             <h1>{experience.company}</h1>
                             <h2>{experience.designation}</h2>
@@ -30,6 +33,11 @@ function Projects () {
             </div>
             <div className={styles.projects}>
                 <h1>Personal <span className={styles.highlight}>Projects</span></h1>
+                <div>
+                    {projects.map((project) => (
+                        <Card project={project} key={project.id} />
+                    ))}
+                </div>
             </div>
         </div>
     );

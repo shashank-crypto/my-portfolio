@@ -1,10 +1,20 @@
 [
     {
-        "name" : "A",
-        "description" : [
-            "A"
-        ],
-        "link" : "https://www.youtube.com/watch?v=1Q8fG0TtVAY",
-        "repo" : "https://github.com/shashank-crypto"
+        "id" : "1",
+        "name" : "Online Voting System",
+        "description" : "A voting system based on blockchain technology that facilitates all election-related processes while providing appropriate access and role distribution for administrators, voters, and candidates, ensuring a fair, secure, and transparent election free from fraudulent activities.",
+        "repo" : "https://github.com/shashank-crypto/Voting-System"
+    },
+    {
+        "id" : "2",
+        "name" : "Version Update package",
+        "description" : "A package that allows you to update npm packages of your apps on github to the latest version of the listed packages without having to go to each apps, update the version and push them again. All on a simple command after setup and a csv file to provide the npm",
+        "repo" : "https://github.com/shashank-crypto/version-update-cli"
+    },
+    {
+        "id" : "3",
+        "name" : "NGO fund management system on Blockchain",
+        "description" : "A system that allows NGOs to manage their funds on blockchain and also allows donors to donate to the NGOs of their choice with the right distribution of roles. System aims at bringing transparency and removing any fraudulent activity or carelessness.",
+        "repo" : "https://github.com/shashank-crypto/NGOD-app"
     }
 ]
