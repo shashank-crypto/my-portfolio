@@ -1,9 +1,13 @@
 import React from 'react';
 import styles from '@/styles/Contact.module.css';
+import Head from 'next/head';
 
 function Contacts () {
     return (
         <div className={styles.contact}>
+            <Head>
+                <title>Contact</title>
+            </Head>
             <h1>Let's <span className={styles.highlight}>Connect</span></h1>
             <p>Feel free to reach out to me on any of the platforms below.</p>
             <ul className={styles.socials}>

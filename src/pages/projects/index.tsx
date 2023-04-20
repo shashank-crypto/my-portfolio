@@ -7,11 +7,15 @@ import projects from '../api/project.json'
 import Card from '@/components/Card';
 
 import LineWithPoints from './LineWithPoints';
+import Head from 'next/head';
 
 function Projects () {
 
     return (
         <div className={styles.page}>
+            <Head>
+                <title>Experiences & Projects</title>
+            </Head>
             {/* <LineWithPoints numPoints={Experiences.length} triangleIndex={2} /> */}
             <div className={styles.experiences}>
                 <h1 style={{fontSize: "2rem"}}>Industry <span className={styles.highlight}>Experiences</span></h1>

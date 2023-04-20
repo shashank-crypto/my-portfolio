@@ -2,10 +2,14 @@ import React from 'react';
 import Image from 'next/image';
 import styles from '@/styles/About.module.css';
 import GitHubCalendar from "react-github-calendar";
+import Head from 'next/head';
 
 function About() {
     return (
         <div className={styles.about}>
+            <Head>
+                <title>About</title>
+            </Head>
             <div className={styles.top}>
                 <div className={styles.intro}>
                     <h1>Hey there,</h1>
