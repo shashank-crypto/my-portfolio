@@ -1,10 +1,27 @@
 import React from 'react';
-import Image from 'next/image';
+import { useEffect, useState } from 'react';
 import styles from '@/styles/About.module.css';
 import GitHubCalendar from "react-github-calendar";
 import Head from 'next/head';
+import { getDoc, doc } from "firebase/firestore";
+
+import db from "@/config/firebase";
 
 function About() {
+
+    const [skills, setSkills] = useState([] as any);
+
+    useEffect(() => {
+        const getData = async () => {
+            const skillSnapshot = await getDoc(doc(db, "portfolio-data", "skills"));
+            const data = skillSnapshot.data();
+            setSkills(data?.skills);
+            console.log(skillSnapshot.data());
+        };
+        getData();
+    }, []);
+            
+
     return (
         <div className={styles.about}>
             <Head>
@@ -94,6 +111,13 @@ function About() {
                 <div className={styles.skill}>
                     <img src='skills/linux.png'/>
                 </div>
+            {
+                skills.map((skill: any) => (
+                    <div className={styles.skill}>
+                        <img src={skill} />
+                    </div>
+                ))
+            }
           </div>
           </div>
           <div className={styles.github}>
